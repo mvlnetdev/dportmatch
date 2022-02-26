@@ -1,0 +1,7 @@
+[package]
+script_dir = scripts
+description = Zeek package to add a destination port to the meta fields in Zeek. It creates a notice when both the intel and the destination port matches. This adds a feature that can be used to reduce false positives.
+credits = M. van Leeuwen
+tags = Zeek package, dport, port, intel, dport match
+depends =
+  zeek >=2.6.3
