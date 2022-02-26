@@ -13,7 +13,6 @@ export {
 }
 
 event Intel::match(s: Intel::Seen, items: set [Intel::Item]) {
-local port_list: set[port];
 	for (i in items) {
 		if (i$meta?$dport) {
 			if (i$meta$dport == s$conn$id$resp_p) {
